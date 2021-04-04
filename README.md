@@ -1,40 +1,16 @@
 # 오프라인 중고서점 검색엔진 - 책나와
 
+<img width="236" alt="KakaoTalk_Photo_2021-04-04-22-16-25" src="https://user-images.githubusercontent.com/4518740/113510099-ee8ed000-9593-11eb-8e7f-c212e214500c.png">
+
+
 팀페이지: [https://kookmin-sw.github.io/capstone-2021-21](https://kookmin-sw.github.io/capstone-2021-21)
 
-# 팀원소개
 
-```
-이동형
-Backend, Crawler, Project Management
-
-INFO:
-	ID: 20163135
-	E-Mail: sc0_nep@yahoo.co.jp
-	Github: github.com/dlehdgud2380
-```
-
-```
-권순영
-Team Leader, Frontend
-
-INFO:
-	ID: 20163419
-	E-Mail: ssassaium@gmail.com
-	Github: github.com/YJSNPIDISK
-```
-
-```
-이동범
-Frontend(Sub), QA, Support
-
-INFO:
-	ID: 20163134
-	E-Mail: emfprhs1579@kookmin.ac.kr
-	Github: github.com/DB-platform
-```
 
 # 프로젝트 소개
+
+<img width="1324" alt="Untitled" src="https://user-images.githubusercontent.com/4518740/113510049-ab346180-9593-11eb-8b59-feeecea6ee1b.png">
+<img width="1326" alt="Untitled2" src="https://user-images.githubusercontent.com/4518740/113510064-bedfc800-9593-11eb-896c-66f223c8fbea.png">
 
 ## 프로젝트의 간단한 소개
 
@@ -80,3 +56,36 @@ INFO:
 4. vue-fontawesome 5.10.0
 
 # 사용방법
+
+
+# 팀원소개
+
+```
+이동형
+Backend, Crawler, Project Management
+
+INFO:
+	ID: 20163135
+	E-Mail: sc0_nep@yahoo.co.jp
+	Github: github.com/dlehdgud2380
+```
+
+```
+권순영
+Team Leader, Frontend
+
+INFO:
+	ID: 20163419
+	E-Mail: ssassaium@gmail.com
+	Github: github.com/YJSNPIDISK
+```
+
+```
+이동범
+Frontend(Sub), QA, Support
+
+INFO:
+	ID: 20163134
+	E-Mail: emfprhs1579@kookmin.ac.kr
+	Github: github.com/DB-platform
+```
