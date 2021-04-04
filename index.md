@@ -1,7 +1,3 @@
-# readme.md
-
-문서생성 일시: 2021년 4월 4일 오후 5:48
-
 # 오프라인 중고서점 검색엔진 - 책나와
 
 팀페이지: [https://kookmin-sw.github.io/capstone-2021-21](https://kookmin-sw.github.io/capstone-2021-21)
