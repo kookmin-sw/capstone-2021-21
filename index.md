@@ -2,8 +2,6 @@
 
 팀페이지: [https://kookmin-sw.github.io/capstone-2021-21](https://kookmin-sw.github.io/capstone-2021-21)
 
----
-
 # 팀원소개
 
 ```
