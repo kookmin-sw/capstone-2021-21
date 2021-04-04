@@ -1,37 +1,88 @@
-## Welcome to GitHub Pages
+# readme.md
 
-You can use the [editor on GitHub](https://github.com/kookmin-sw/cap-template/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+문서생성 일시: 2021년 4월 4일 오후 5:48
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 오프라인 중고서점 검색엔진 - 책나와
 
-### Markdown
+팀페이지: [https://kookmin-sw.github.io/capstone-2021-21](https://kookmin-sw.github.io/capstone-2021-21)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
 
-```markdown
-Syntax highlighted code block
+# 팀원소개
 
-# Header 1
-## Header 2
-### Header 3
+```
+이동형
+Backend, Crawler, Project Management
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+INFO:
+	ID: 20163135
+	E-Mail: sc0_nep@yahoo.co.jp
+	Github: github.com/dlehdgud2380
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```
+권순영
+Team Leader, Frontend
 
-### Jekyll Themes
+INFO:
+	ID: 20163419
+	E-Mail: ssassaium@gmail.com
+	Github: github.com/YJSNPIDISK
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kookmin-sw/cap-template/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+이동범
+Frontend(Sub), QA, Support
 
-### Support or Contact
+INFO:
+	ID: 20163134
+	E-Mail: emfprhs1579@kookmin.ac.kr
+	Github: github.com/DB-platform
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# 프로젝트 소개
+
+## 프로젝트의 간단한 소개
+
+- 새책을 사기엔 비싸다.
+- 택배로 배송 받기엔 오래걸린다.
+- 1:1 개인간 거래는 무섭다.
+- 책 상태와 내용을 미리 보고 싶다.
+
+“책나와” 서비스를 활용하여 yes24와 알라딘 오프라인 중고매장 바로 검색하자!
+
+## 배경 및 개요
+
+대학생인 우리들은 항상 개강 후에 책을 강의 서적을 구매해야한다. 하지만 강의 서적은 비싸기 때문에 중고서점을 통해서 구매하게 된다. 대표적으로 ‘YES24’ 와 ‘알라딘’ 중고매장에서 주로 구매해야한다. 하지만 YES24는 한 책에 대한 통합검색을 지원하지 않아서 불편하고 알라딘은 통합검색을 지원하지만 불편한 UX로 인해 한눈에 정보를 얻는 어려움이 존재했다.
+이번 기회로 내가 구매하고 싶은 중고책을 쉽게 구매할 수 있도록 두 서비스의 검색결과를 통합하고 내 위치 기준으로 가까운 서점을 알려줄 수 있도록 만들었다.
+
+# 기능
+
+- 알라딘 검색결과 제공
+- YES24 검색결과 제공
+- 알라딘 & YES24 통합검색결과 제공
+- 현재 위치와 매장 위치 비교 하여 가장 가까운 위치순 검색결과 제공
+
+# 프로젝트에 사용된 스텍
+
+## Backend & Crawler
+
+**Python 3.7+**
+
+1. Flask
+    - Flask 1.1.2
+    - Flask-Cors 3.0.10
+    - Flask-RESTful 0.3.0
+2. Requests 2.25.1
+3. Beautiful Soup 4.9.3
+
+## FrontEnd
+
+**Vue.js 2.6.11**
+
+1. axios 0.21.1
+2. vue-cli 4.5.11
+3. node-sass 5.0.0
+4. vue-fontawesome 5.10.0
+
+# 사용방법
