@@ -56,6 +56,8 @@
 4. vue-fontawesome 5.10.0
 
 # 구조
+(추후 업데이트 예정임)
+<img width="1680" alt="Untitled3" src="https://user-images.githubusercontent.com/4518740/113526916-bd93b700-95f6-11eb-912b-8e009dc54825.png">
 
 
 # 사용방법
