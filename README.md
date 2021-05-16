@@ -1,11 +1,11 @@
 # 오프라인 중고서점 검색엔진 - 책나와
-
 <img width="236" alt="KakaoTalk_Photo_2021-04-04-22-16-25" src="https://user-images.githubusercontent.com/4518740/113510099-ee8ed000-9593-11eb-8e7f-c212e214500c.png">
 
 
-팀페이지: [https://kookmin-sw.github.io/capstone-2021-21](https://kookmin-sw.github.io/capstone-2021-21)
+* 팀페이지: [https://kookmin-sw.github.io/capstone-2021-21](https://kookmin-sw.github.io/capstone-2021-21)
+* 팀저장소: [https://github.com/cappstone/offline_oldbook_searchengine](https://github.com/cappstone/offline_oldbook_searchengine)
 
-
+---
 
 # 프로젝트 소개
 
