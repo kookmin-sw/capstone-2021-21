@@ -1,6 +1,5 @@
 # 오프라인 중고서점 검색엔진 - 책나와
-<img width="236" alt="KakaoTalk_Photo_2021-04-04-22-16-25" src="https://user-images.githubusercontent.com/4518740/113510099-ee8ed000-9593-11eb-8e7f-c212e214500c.png">
-
+![image](https://user-images.githubusercontent.com/4518740/119306204-cd4d8480-bca4-11eb-9de7-0b76262c2711.png)
 
 * 팀페이지: [https://kookmin-sw.github.io/capstone-2021-21](https://kookmin-sw.github.io/capstone-2021-21)
 * 팀저장소: [https://github.com/cappstone/offline_oldbook_searchengine](https://github.com/cappstone/offline_oldbook_searchengine)
@@ -8,9 +7,9 @@
 ---
 
 # 프로젝트 소개
-
-<img width="1324" alt="Untitled" src="https://user-images.githubusercontent.com/4518740/113510049-ab346180-9593-11eb-8b59-feeecea6ee1b.png">
-<img width="1326" alt="Untitled2" src="https://user-images.githubusercontent.com/4518740/113510064-bedfc800-9593-11eb-896c-66f223c8fbea.png">
+![image](https://user-images.githubusercontent.com/4518740/119306722-8c09a480-bca5-11eb-9a98-d38a174e8b23.png)
+![image](https://user-images.githubusercontent.com/4518740/119306765-9e83de00-bca5-11eb-816b-495d1af75673.png)
+![image](https://user-images.githubusercontent.com/4518740/119306728-8f049500-bca5-11eb-8fb8-6bd7d367cc05.png)
 
 ## 프로젝트의 간단한 소개
 
@@ -56,8 +55,7 @@
 4. vue-fontawesome 5.10.0
 
 # 구조
-(추후 업데이트 예정임)
-<img width="1680" alt="Untitled3" src="https://user-images.githubusercontent.com/4518740/113526916-bd93b700-95f6-11eb-912b-8e009dc54825.png">
+![image](https://user-images.githubusercontent.com/4518740/119306359-fff77d00-bca4-11eb-9160-5f0e9be799da.png)
 
 
 # 사용방법
