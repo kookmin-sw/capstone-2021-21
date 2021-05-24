@@ -4,7 +4,12 @@
 * https://github.com/kookmin-sw/capstone-2021-21/tree/master/project/backend
 
 ### Frontend Spec
-* 추가예정
+* Vue 2.6.11
+* Vue-CLI 4.5.11
+* Node.js 14.15.4
+* Npm 7.13.0
+* axios, Sass, fontawesome, Kakao map API
+
 
 ## 1. 세팅방법
 ### 원스크립트 세팅
