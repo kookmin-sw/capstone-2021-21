@@ -18,8 +18,6 @@ import asyncio
 URL = 'https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=UsedStore&KeyTag=&SearchWord='
 
 
-
-
 class Aladin:
     """
     알라딘 검색 페이지를 크롤링하는 메인 클래스
@@ -65,9 +63,9 @@ class Aladin:
 
             # 검색결과에 대해서 dict타입의 형태로 작성하기
             Aladin.search_result = {
-                "keyword" : keyword,
-                "search_total" : len(result),
-                "result" : result
+                "keyword": keyword,
+                "searchTotal": len(result),
+                "result": result
             }
 
             print("time :", time.time() - starttime)
@@ -110,13 +108,14 @@ class Aladin:
         # 한개의 아이템에 대한 dict형태
         item: Dict = {
             "id": "",  # index
-            "bookname": title,  # 책이름
+            "bookName": title,  # 책이름
             "description": description,  # 책설명
-            "imgurl": imgurl,  # 책 이미지 주소
-            "mallCount" : len(list(instock_shop.keys())), # 재고가 있는 매장 개수
-            "mall": list(instock_shop.keys()),  # 재고있는 매장의 목록
+            "imgUrl": imgurl,  # 책 이미지 주소
+            "mallCount": len(list(instock_shop.keys())),  # 재고가 있는 매장 개수
+            "mall": Aladin.Item(instock_shop.items()).stock_info()  # 재고있는 매장의 목록
+            # "mall": list(instock_shop.keys()),  # 재고있는 매장의 목록
             # 매장별로 저장한 재고데이터 (이중 리스트타입 변수)
-            "stock": Aladin.Item(instock_shop.items()).stock_info()
+            # "stock": Aladin.Item(instock_shop.items()).stock_info()
         }
 
         return item
@@ -183,7 +182,7 @@ class Aladin:
                 # 중고 매장 재고 정보를 dict형태의 변수로 저장
                 mall_data: Dict = {
                     "mall_id": i,  # 몇번쨰 중고매장인지
-                    "mallName": mall[0],  # 중고 매장 이름
+                    "mallName": "알라딘-" + mall[0],  # 중고 매장 이름
                     "stockCount": len(result[i]),  # 재고수
                     "stock": result[i]  # 재고 데이터가 담긴 리스트 타입변수
                 }
@@ -233,6 +232,7 @@ class Aladin:
 
         def stock_info(self) -> List:
             return self.stock_info_list
+
 
 """
 if __name__ == "__main__":

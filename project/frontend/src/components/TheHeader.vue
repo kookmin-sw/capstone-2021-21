@@ -1,6 +1,6 @@
 <template>
   <header v-on:click="refresh()">
-    <h1>중고책 검색시스템</h1>
+    <h1><img src="logo.png"></h1>
   </header>
 </template>
 
@@ -17,10 +17,19 @@ export default {
 
 <style scoped>
 h1 {
+  font-size: max(2vw, 36px);
   text-align: center;
   margin: 30px;
   color:#557174;
   font-weight: 800;
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-family: 'Roboto';
+    font-size: max(1.3vw, 24px);
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 </style>
